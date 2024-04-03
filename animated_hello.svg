@@ -1,0 +1,34 @@
+<svg fill="none" viewBox="0 0 500 200" width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        h1 { 
+          font-size: 48px;
+          color: #3498db;
+          animation: colorChange 3s infinite alternate;
+        }
+        .skill-bar { width: 80%; height: 20px; background-color: #ddd; margin: 10px 0; }
+        .skill-progress { background-color: #2ecc71; height: 100%; animation: progressBar 2s forwards;}
+      </style>
+      <h1>Hello!</h1>
+      <p>My Skills:</p>
+      <div class="skill-bar">
+        <div class="skill-progress" style="width: 75%">HTML/CSS</div>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-progress" style="width: 60%">JavaScript</div>
+      </div>
+    </div>
+  </foreignObject>
+
+ <animations>
+    @keyframes colorChange {
+      from { color: #3498db; }
+      to { color: #e74c3c; }
+    }
+    @keyframes progressBar {
+      from { width: 0%; } 
+      to { width: var(--progress-width); }
+    } 
+  </animations>
+</svg>
