@@ -1,6 +1,3 @@
-<img src="animated_hello.svg" alt="Animated Hello">
-
-
 - 👋 Hi, I’m @TheDextiN
 - 👀 I’m interested in Web Developing
 - 🌱 I’m currently learning React.js
